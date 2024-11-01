@@ -18,7 +18,7 @@ function Home() {
 
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-blue-100 to-white">
     
-      <div className="w-full bg-blue-500 text-white p-6 text-center">
+      <div className="w-full bg-teal-500 text-white p-6 text-center">
         <h1 className="text-4xl font-bold">Descubre Imágenes Increíbles</h1>
         <p className="mt-2 text-lg">Explora, busca y descarga imágenes de alta calidad fácilmente.</p>
       </div>
@@ -34,11 +34,11 @@ function Home() {
             placeholder="Ej. naturaleza, tecnología..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full px-4 py-2 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
+            className="w-full px-4 py-2 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 transition duration-200"
           />
           <button
             type="submit"
-            className="w-full py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300"
+            className="w-full py-2 bg-teal-600 text-white font-semibold rounded-lg hover:bg-teal-700 transition duration-300"
           >
             Buscar Imágenes
           </button>

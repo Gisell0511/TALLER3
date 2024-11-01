@@ -46,13 +46,13 @@ function Login() {
             className="w-full px-4 py-2 border rounded"
             required
           />
-          <button type="submit" className="w-full bg-blue-600 text-white py-2 rounded">
+          <button type="submit" className="w-full bg-teal-600 text-white py-2 rounded">
             Iniciar Sesión
           </button>
         </form>
         <p className="text-center mt-4">
           ¿No tienes cuenta?{' '}
-          <span onClick={() => navigate('/register')} className="text-blue-600 cursor-pointer">
+          <span onClick={() => navigate('/register')} className="text-teal-600 cursor-pointer">
             Regístrate aquí
           </span>
         </p>

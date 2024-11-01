@@ -64,13 +64,13 @@ function Register() {
             className="w-full px-4 py-2 border rounded"
             required
           />
-          <button type="submit" className="w-full bg-blue-600 text-white py-2 rounded">
+          <button type="submit" className="w-full bg-teal-600 text-white py-2 rounded">
             Registrarse
           </button>
         </form>
         <p className="text-center mt-4">
           ¿Ya tienes una cuenta?{' '}
-          <span onClick={() => navigate('/login')} className="text-blue-600 cursor-pointer">
+          <span onClick={() => navigate('/login')} className="text-teal-600 cursor-pointer">
             Inicia sesión aquí
           </span>
         </p>

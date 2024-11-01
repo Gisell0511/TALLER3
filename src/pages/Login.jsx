@@ -13,10 +13,13 @@ function Login() {
   const handleLogin = (e) => {
     e.preventDefault();
 
-    // Validar credenciales
-    if (auth.user && auth.user.username === username && auth.user.password === password) {
-      dispatch(login({ username, password })); // Establece el estado de autenticación en Redux
-      navigate('/home'); // Redirige a la página principal después de iniciar sesión
+    if (
+      auth.user &&
+      auth.user.name === username && 
+      auth.user.password === password
+    ) {
+      dispatch(login({ username, password }));
+      navigate('/home');
     } else {
       alert('Credenciales incorrectas');
     }

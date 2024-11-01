@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import ApiResults from './pages/ApiResults';
+import './index.css';
 
 function App() {
   return (
